@@ -1,0 +1,15 @@
+import pandas as pd
+df = pd.read_csv('features_data_with_churned.csv')
+col =list(df.columns)
+col =[1:-2]
+print(col)
+
+
+normal = [{"risk_tolerance":
+{"low_risk_tolerance":-1,"med_risk_tolerance":0,'hight_risk_tolerance':1}},
+          {"investment_experience":
+{'no_investment_exp':-1,"good_investment_exp":0,"limited_investment_exp":1}},
+          {"liquidity_needs":
+{"not_important_liq_need":-1,"somewhat_important_liq_need":0, "very_important_liq_need":1}}
+          {'platform':
+               {}}]
