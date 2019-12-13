@@ -7,10 +7,16 @@ for column in col:
 	print (set(df[column]))
 
 
-normal = {"risk_tolerance":
-{"low_risk_tolerance":-1,"med_risk_tolerance":0,"high_risk_tolerance":1},
-          "investment_experience":
-{"no_investment_exp":-1,"good_investment_exp":0,"limited_investment_exp":1,"extensive_investment_exp":2},
+normal = {
+    "risk_tolerance":
+        {
+            "low_risk_tolerance":-1,
+            "med_risk_tolerance":0,
+            "high_risk_tolerance":1
+            },
+    "investment_experience":
+        {
+            "no_investment_exp":-1,"good_investment_exp":0,"limited_investment_exp":1,"extensive_investment_exp":2},
           "liquidity_needs":
 {"not_important_liq_need":-1,"somewhat_important_liq_need":0,"very_important_liq_need":1},
           "platform":
